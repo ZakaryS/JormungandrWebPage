@@ -1,7 +1,17 @@
-h1, h3 {
+h1, h6 {
     text-align: center;
     color: rgb(211, 211, 211);
+    margin-top: 0;
 }
+
+h1 {
+    margin-bottom: 0;
+}
+
+h6 {
+    margin-bottom: 5px;
+}
+
 body {
     background-color: rgb(22, 22, 22);
 }
@@ -10,4 +20,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
+
+button {
+    max-width: 75px;
+}

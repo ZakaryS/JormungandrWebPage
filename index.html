@@ -4,36 +4,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/styles.css">
     <body>
+        <header>
+            <h1 class="page-title">Jörmungandr's Page</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Gallery.html"><strong>Gallery</strong></a>
+                    </li>
+                    <li>
+                        <a href="SubmissionForm.html"><strong>Submissions</strong></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <main>
             <section>
-                <h1>Jörmungandr's Page</h1>
-                <h2>Pictures:</h2>
-                <p>See more pictures 
-                    <a href="">
-                        <button>here</button>
-                    </a>.
-                </p>
-                <a href="NotThere.html">
-                    <img src="Pics/Side.PNG" width="480" height="640">
-                </a>
+                <h2 class="sub-title">Pictures:</h2>
+                <div class="pictures-section-center">
+                    <a href="NotThere.html">
+                        <img src="Pics/Side.PNG" alt="Cat looking off to the left." width="480" height="640" class="main-page-pic">
+                    </a>
+                    <p class="gallery-link">See more pictures 
+                        <a href="Gallery.html" class="link-text">here</a>.
+                    </p>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section>
+                <h2 class="sub-title">Jörmungandr's Favourite Things:</h2>
+                <ol>
+                    <li>Mind-Slave to the Substance:</li>
+                    <ul>
+                        <li>Biofreeze</li>
+                        <li>Bug Spray</li>
+                        <li>Vicks VapoRub</li>
+                    </ul>
+                    <li>Addiction-Level:</li>
+                        <ul>
+                            <li>Bacon</li>
+                            <li>Cheese</li>
+                            <li>Treats</li>
+                            <li>Body Lotion</li>
+                        </ul>
+                    <li>Loves:</li>
+                        <ul>
+                            <li>❤️<strong><em>Me</em></strong>❤️</li>
+                            <li>Catnip</li>
+                        </ul>
+                </ol>
+                <div class="pictures-section-center">
+                    <figure>
+                        <img src="Pics/Kiss.png" alt="Cat getting a kiss on the head. He looks content." width="300" height="400">
+                    </figure>
+                </div>
+            </section>
+            <div class="divider"></div>
+            <section class="bottom">
+                <h2 class="sub-title">Submit Your Child:</h2>
+                    <a href="SubmissionForm.html">
+                        <button>Submissions</button>
+                    </a>
             </section>
         </main>
-        <section>
-            <h2>Jörmungandr's Favourite Things:</h2>
-                <ol>
-                    <li>Catnip, Biofreeze, & Bug Spray</li>
-                    <li>Bacon, Cheese, & Body Lotion</li>
-                    <li>❤️<strong><em>Me</em></strong>❤️</li>
-                </ol>
-                <figure>
-                    <img src="Pics/Kiss.png" width="300" height="400">
-                </figure>
-        </section>
-        <section>
-            <h2>Submit Your Child:</h2>
-                <a href="SubmissionForm.html">
-                    <button>Submissions</button>
-                </a>
-        </section>
     </body>
 </html>
